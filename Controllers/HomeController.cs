@@ -15,19 +15,16 @@ namespace SistemaVendas.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult CadastroCliente()
         {
-            ViewData["Message"] = "Your application description page.";
-
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult ListarCliente()
         {
-            ViewData["Message"] = "Your contact page.";
-
             return View();
         }
+
 
         public IActionResult Error()
         {

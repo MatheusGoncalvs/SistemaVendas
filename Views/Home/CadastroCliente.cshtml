@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Cadastrar Cliente";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<div class="row">
+    <a class="btn btn-danger" asp-action="Index">Voltar</a>
+</div>
+
+<form asp-action="Index" method="post">
+
+    <div class="row linhadebusca">
+        <div class="col-md-6 form-group">
+            <h2>Nome</h2>
+            <input type="text" />
+            <h2>CPF/CNPJ</h2>
+            <input type="text" />
+            <h2>Razao social</h2>
+            <input type="text" />
+            </br>
+            </br>
+            </br>
+            <input type="submit" value="Cadastrar" class="btn btn-default" />
+        </div>
+    </div>
+</form>
